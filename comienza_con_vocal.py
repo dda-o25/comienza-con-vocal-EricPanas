@@ -7,7 +7,7 @@ Dada una palabra, determina si comienza con vocal o no.
 """
 
 # Declaraciones
-VOCALES = ("a", "e", "i", "o", "u", "á", "é", "í", "ó", "ú") 
+VOCALES = ("a", "e", "i", "o", "u", "á", "é", "í", "ó", "ú", "ä", "ë", "ï", "ö","ü") 
 
 # Entradas
 palabra = input("Escribe una plabra: ")
