@@ -1,15 +1,23 @@
 """
-Inserta el encabezado aquí y escribe tu código abajo
+Eric Fernando Panas López Dellamary
+
+15/09/2025
+
+Dada una palabra, determina si comienza con vocal o no.
 """
 
 # Declaraciones
-CONSTANTE = valor
+VOCALES = ("a", "e", "i", "o", "u", "á", "é", "í", "ó", "ú") 
 
 # Entradas
-entrada = input()
+palabra = input("Escribe una plabra: ")
 
 # Proceso
-
+palabra_minusculas =  palabra.lower()
+if palabra_minusculas[0] in VOCALES:
+    vocal = ""
+else:
+    vocal = "no " 
 
 # Salidas
-print(salida)
+print("'" + palabra + "' " + vocal + "comienza con vocal")
